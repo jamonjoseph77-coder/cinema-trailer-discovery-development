@@ -1,0 +1,9 @@
+[
+ {"capability":"code","source":"bolt vite react","outcome":"migrate","status":"verified","next_action":"none"},
+ {"capability":"schema","source":"supabase migrations","outcome":"migrate","status":"verified","next_action":"none"},
+ {"capability":"records","source":"bolt database","outcome":"migrate","status":"pending","next_action":"user exports tables or skips"},
+ {"capability":"auth identities","source":"supabase auth","outcome":"migrate","status":"pending","next_action":"user exports users or skips"},
+ {"capability":"authorization","source":"RLS + admin_users","outcome":"migrate","status":"implemented","next_action":"sign-in check"},
+ {"capability":"realtime watch parties","source":"supabase realtime","outcome":"migrate","status":"implemented","next_action":"two-user check"},
+ {"capability":"tmdb","source":"edge function","outcome":"server function","status":"blocked","next_action":"TMDB_READ_ACCESS_TOKEN secret"}
+]
